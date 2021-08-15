@@ -33,6 +33,15 @@
         font-size: 20px;
       }
 
+      .navigation .nav-brand a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .navigation .nav-brand a:hover {
+        color: var(--dark-gray);
+      }
+
       .navigation .nav-pills {
         text-align: right;
       }
@@ -75,7 +84,7 @@
 
       @media screen and (max-width: 560px) {
         .hero .hero-img {
-          max-width: 345px;
+          max-width: 280px;
         }
       }
 
@@ -136,10 +145,18 @@
         color: white;
       }
 
+      .link-primary:hover {
+        font-weight: bold;
+      }
+
       .link-secondary {
         color: var(--primary-color);
         border: 1px solid var(--primary-color);
         border-radius: 0.5rem;
+      }
+
+      .link-secondary:hover {
+        font-weight: bold;
       }
 
       .extra {
@@ -158,6 +175,10 @@
         text-align: center;
         color: white;
         border-top-right-radius: 1rem;
+      }
+
+      .footer .footer-header {
+        font-weight: bold;
       }
 
       .footer ul {
@@ -184,4 +205,8 @@
       .footer .linkedin-logo {
         font-size: 40px;
         color: rgb(34, 31, 31);
+      }
+
+      .footer .footer-copyright {
+        color: black;
       }
